@@ -2,7 +2,11 @@ spring:
   cloud:
     stream:
       default-binder: kafka
-      consumer-defaults: aaa.bbb.ccc
+      bindings:
+        input:
+          group: aaa.bbb.ccc
+        output:
+          group: ddd.fff.ggg
       kafka:
         binder:
           zk-nodes: 10.9.3.22:2181
