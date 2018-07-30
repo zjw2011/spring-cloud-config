@@ -1,3 +1,15 @@
+spring:
+  cloud:
+    stream:
+      default-binder: kafka
+      kafka:
+        binder:
+          zk-nodes: 10.9.3.22:2181
+          brokers: 10.9.3.22:19092
+          configuration:
+            auto:
+              offset:
+                reset: latest
 server:
   port: 12150
 endpoints:
