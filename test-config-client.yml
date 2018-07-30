@@ -19,4 +19,4 @@ management:
   security:
     enabled: false
 test:
-  name: zjw
+  name: zhangsan
