@@ -18,3 +18,5 @@ hystrix:
 management:
   security:
     enabled: false
+test:
+  name: zjw
