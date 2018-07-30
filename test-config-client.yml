@@ -10,6 +10,8 @@ spring:
             auto:
               offset:
                 reset: latest
+    bus:
+      destination: weahan-auto-config-refresh
 server:
   port: 12150
 endpoints:
@@ -31,4 +33,4 @@ management:
   security:
     enabled: false
 test:
-  name: jiujiu
+  name: tianyi
