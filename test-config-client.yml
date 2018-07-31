@@ -33,4 +33,4 @@ management:
   security:
     enabled: false
 test:
-  name: oule
+  name: oulele
